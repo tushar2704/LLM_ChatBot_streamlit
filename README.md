@@ -51,7 +51,7 @@ Once the application is running, you can interact with the chatbot through the u
 
 The LLM_ChatBot_streamlit app is deployed using Streamlit Sharing, allowing you to access it directly from your web browser. Here are the deployment links:
 
-- [Live Deployment](https://tushar2704-llm-chatbot-streamlit-chatbot-dssay9.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tushar2704-llm-chatbot-streamlit-chatbot-dssay9.streamlit.app/)
 
 ## Demo
 
