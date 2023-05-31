@@ -12,6 +12,11 @@ LLM_ChatBot_streamlit is an amazing chatbot application powered by the latest na
 - Seamless integration with Streamlit
 - Easy-to-use and interactive user interface
 
+
+- Front-end: The user submits an input prompt (by providing a string of text to the text box via st.text_input()), and the app generates a response.
+- Back-end: Input prompt is sent to hugchat (the unofficial port to the HuggingChat API) via streamlit-chat for generating a response.
+- Front-end: Generated responses are displayed in the app via's message() command.
+
 ## Installation
 
 To run the LLM_ChatBot_streamlit locally, you need to follow these steps:
