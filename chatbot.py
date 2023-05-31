@@ -38,35 +38,38 @@ input_container = st.container()
 colored_header(label='', description='', color_name='blue-30')
 response_container = st.container()
 
+# User inputs
+
+## Func for taking user inputs
+
+def get_text():
+    input_text = st.text_input("Prompt me something, please ", "", key="input")
+    return input_text
+
+## Applying the user input box
+with input_container:
+    user_input = get_text()
+
+# Bot outputs
 
 
+## Function for taking user prompt as input followed by producing AI generated responses
+def generate_response(prompt):
+    chatbot = hugchat.ChatBot(cookie_path="cookies.json")
+    response = chatbot.chat(prompt)
+    return response
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Conditional display of AI generated responses as a function of user provided prompts
+with response_container:
+    if user_input:
+        response = generate_response(user_input)
+        st.session_state.past.append(user_input)
+        st.session_state.generated.append(response)
+        
+    if st.session_state['generated']:
+        for i in range(len(st.session_state['generated'])):
+            message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
+            message(st.session_state['generated'][i], key=str(i))
 
 
 
