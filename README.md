@@ -1,9 +1,8 @@
 # LLM_ChatBot_streamlit
 
-![ChatBot](https://yourdomain.com/path/to/image.png)
-
 LLM_ChatBot_streamlit is an amazing chatbot application powered by the latest natural language processing technology. It is designed to provide a seamless conversational experience and assist users in various tasks. This repository contains the code and resources required to deploy the chatbot using Streamlit.
 
+- Using HugChat, an innovative and versatile Python package designed to simplify the development of chatbot applications. With HugChat, developers can quickly and effortlessly create intelligent conversational agents that interact with users in a natural and engaging manner.
 ## Features
 
 - Natural language processing capabilities
@@ -17,6 +16,8 @@ LLM_ChatBot_streamlit is an amazing chatbot application powered by the latest na
 - Back-end: Input prompt is sent to hugchat (the unofficial port to the HuggingChat API) via streamlit-chat for generating a response.
 - Front-end: Generated responses are displayed in the app via's message() command.
 
+
+![Alt text](https://blog.streamlit.io/content/images/2023/05/hugchat-diagram.png)
 ## Installation
 
 To run the LLM_ChatBot_streamlit locally, you need to follow these steps:
@@ -24,7 +25,7 @@ To run the LLM_ChatBot_streamlit locally, you need to follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/LLM_ChatBot_streamlit.git
+   git clone https://github.com/tushar2704/LLM_ChatBot_streamlit.git
    cd LLM_ChatBot_streamlit
    ```
 
@@ -37,7 +38,7 @@ To run the LLM_ChatBot_streamlit locally, you need to follow these steps:
 3. Run the Streamlit app:
 
    ```bash
-   streamlit run app.py
+   streamlit run chatbot.py
    ```
 
    This command will start the Streamlit app and you can access it in your web browser.
@@ -50,13 +51,21 @@ Once the application is running, you can interact with the chatbot through the u
 
 The LLM_ChatBot_streamlit app is deployed using Streamlit Sharing, allowing you to access it directly from your web browser. Here are the deployment links:
 
-- [Live Deployment](https://yourdomain.com/path/to/live/deployment)
+- [Live Deployment](https://tushar2704-llm-chatbot-streamlit-chatbot-dssay9.streamlit.app/)
 
 ## Demo
 
 You can find a live demo of the LLM_ChatBot_streamlit app in action at the following link:
 
-- [Demo](https://yourdomain.com/path/to/demo)
+- [Demo](https://tushar2704-llm-chatbot-streamlit-chatbot-dssay9.streamlit.app/)
+
+
+## Author
+- <ins><b>©2023 Tushar Aggarwal. All rights reserved</b></ins>
+- <b>[LinkedIn](https://www.linkedin.com/in/tusharaggarwalinseec/)</b>
+- <b>[Medium](https://medium.com/@tushar_aggarwal)</b> 
+- <b>[Tushar-Aggarwal.com](https://www.tushar-aggarwal.com/)</b>
+- <b>[Kaggle](https://www.kaggle.com/tusharaggarwal27)</b> 
 
 ## Contributing
 
@@ -64,16 +73,9 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-LLM_ChatBot_streamlit is licensed under the [MIT License](https://github.com/yourusername/LLM_ChatBot_streamlit/blob/main/LICENSE).
+LLM_ChatBot_streamlit is licensed under the [MIT License](https://github.com/tushar2704/LLM_ChatBot_streamlit/blob/main/LICENSE).
+
 
 ## Acknowledgements
 
 We would like to express our gratitude to the open-source community for their invaluable contributions and support.
-
-## Contact
-
-If you have any questions, suggestions, or feedback, please feel free to reach out to us at [email@example.com](mailto:email@example.com). We would love to hear from you!
-
----
-
-We hope you enjoy using LLM_ChatBot_streamlit. Happy chatting!
