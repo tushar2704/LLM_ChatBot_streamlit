@@ -1,6 +1,6 @@
 # LLM_ChatBot_streamlit
 
-LLM_ChatBot_streamlit is an amazing chatbot application powered by the latest natural language processing technology. It is designed to provide a seamless conversational experience and assist users in various tasks. This repository contains the code and resources required to deploy the chatbot using Streamlit.
+LLM_ChatBot_streamlit- T-BOT, is an amazing chatbot application powered by the latest natural language processing technology. It is designed to provide a seamless conversational experience and assist users in various tasks. This repository contains the code and resources required to deploy the chatbot using Streamlit.
 
 - Using HugChat, an innovative and versatile Python package designed to simplify the development of chatbot applications. With HugChat, developers can quickly and effortlessly create intelligent conversational agents that interact with users in a natural and engaging manner.
 ## Features
